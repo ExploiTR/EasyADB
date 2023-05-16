@@ -1,5 +1,5 @@
 ## EasyADB
-### This Python script allows you to connect to an Android device over ADB (Android Debug Bridge) by setting up and managing your configuration details.
+This Python script allows you to connect to an Android device over ADB (Android Debug Bridge) by setting up and managing your configuration details.
 
 ### Overview
 The script checks for an existing config.json file in your home directory. If it exists, it loads your configuration (IP address, port, platform folder) and offers the option to update it. If the file doesn't exist, it prompts you to enter these details.
