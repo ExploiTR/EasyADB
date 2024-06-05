@@ -70,8 +70,7 @@ def connect_over_tcp(device_ip):
     else:
         logging.info(connect_output)
 
-# Main workflow
-logging.info("Starting main workflow")
+logging.info("Starting ADBx")
 device_id = list_devices()
 if device_id:
     if set_tcpip(device_id):
@@ -79,5 +78,4 @@ if device_id:
         if device_ip:
             connect_over_tcp(device_ip)
             
-# At the end of your script, add:
 input("Press any key to exit...")
